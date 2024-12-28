@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIIB</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Rastanty&family=Jolly+Lodger&family=Permanent+Marker&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="VIIB Logo">
+                <h1>VIIB</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#shop">Merch</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="videos/hero-background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h2>Feel the Rhythm, Live the Music</h2>
+            <p>Welcome to the official website of VIIB.</p>
+            <a href="#music" class="btn">Listen Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="intro">Welcome to the world of <span class="highlight">VIIB</span>, where music meets soul and rhythm tells a story.</p>
+                <p>Born and raised in the vibrant heart of <span class="city-name green">Cali</span>, <span class="highlight">VIIB</span> is a band that blends the timeless essence of reggae with the laid-back, sun-soaked vibes of Central California. Our music is a celebration of life, love, and the power of community, inspired by the rich cultural tapestry of our roots.</p>
+                <p>From the beaches of Santa Cruz to the rolling hills of Sonora, we’ve performed in iconic venues and intimate local spots across Central California, including <span class="city-name red">Stockton</span>, <span class="city-name gold">Lodi</span>, <span class="city-name green">Modesto</span>, <span class="city-name red">Sonora</span>, <span class="city-name gold">Merced</span>, <span class="city-name green">Turlock</span>, <span class="city-name red">Patterson</span>, and <span class="city-name gold">Visalia</span>. Every performance is an opportunity to connect with our audience and spread the message of One Love.</p>
+                <p>Whether it’s a <span class="event-type red">private gig</span>, a <span class="event-type gold">local show</span>, or a <span class="event-type green">community event</span>, we bring the rhythm, energy, and passion that make every moment unforgettable. Our sound is a fusion of classic reggae and the unique spirit of California’s reggae scene, crafted to inspire and uplift.</p>
+                <p class="closing">Join us on this journey as we continue to grow, create, and share the vibes of <span class="highlight">VIIB</span>. Let’s make music together and keep the spirit of reggae alive!</p>
+            </div>
+            <div class="about-images">
+                <div class="image-container card">
+                    <img src="images/cali1.jpg" alt="Band performing live">
+                </div>
+                <div class="image-container card">
+                    <img src="images/cali2.jpg" alt="Band in the studio">
+                </div>
+                <div class="image-container card">
+                    <img src="images/cali3.jpg" alt="Band at a community event">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
+        <h2>Our Music</h2>
+        <div class="music-container">
+            <div class="track card">
+                <div class="album-art">
+                    <img src="images/album1.jpg" alt="Album Art for VIIB Acoustic EP">
+                </div>
+                <h3>VIIB Acoustic EP</h3>
+                <audio controls>
+                    <source src="music/track1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="track card">
+                <div class="album-art">
+                    <img src="images/album2.jpg" alt="Album Art for Santeria">
+                </div>
+                <h3>Santeria</h3>
+                <audio controls>
+                    <source src="music/track2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="track card">
+                <div class="album-art">
+                    <img src="images/album3.jpg" alt="Album Art for Praise Jah in the Moonlight">
+                </div>
+                <h3>Praise Jah in the Moonlight</h3>
+                <audio controls>
+                    <source src="music/track3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Section -->
+    <section id="tour" class="tour">
+        <h2>Tour Dates</h2>
+        <div class="tour-dates">
+            <div class="date card">
+                <div class="date-content">
+                    <h3>Sonora</h3>
+                    <p class="location">Black Bomb Entertainment</p>
+                    <p class="date-time">December 21, 2024</p>
+                    <a href="#" class="btn">Get Tickets</a>
+                </div>
+                <div class="video-placeholder">
+                    <video controls muted>
+                        <source src="videos/sonora.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="date card">
+                <div class="date-content">
+                    <h3>Modesto</h3>
+                    <p class="location">State Theatre</p>
+                    <p class="date-time">January 1, 2025</p>
+                    <a href="#" class="btn">Get Tickets</a>
+                </div>
+                <div class="video-placeholder">
+                    <video controls muted>
+                        <source src="videos/modesto.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="date card">
+                <div class="date-content">
+                    <h3>Sacramento</h3>
+                    <p class="location">Golden State Arena</p>
+                    <p class="date-time">February 2, 2025</p>
+                    <a href="#" class="btn">Get Tickets</a>
+                </div>
+                <div class="video-placeholder">
+                    <video controls muted>
+                        <source src="videos/sacramento.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Shop Merch</h2>
+        <div class="shop-items">
+            <div class="item card">
+                <img src="images/merch1.jpg" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <p>$20</p>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="item card">
+                <img src="images/merch2.jpg" alt="Hoodie">
+                <h3>Hoodie</h3>
+                <p>$40</p>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="item card">
+                <img src="images/merch3.jpg" alt="Poster">
+                <h3>Poster</h3>
+                <p>$10</p>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <h2>Latest News</h2>
+        <div class="news-container">
+            <div class="news-item card">
+                <div class="news-image">
+                    <img src="images/news1.jpg" alt="New Album Release">
+                </div>
+                <div class="news-content">
+                    <h3>New Album Release</h3>
+                    <p>Our latest album, <strong>"Acoustic EP"</strong>, is now available on all streaming platforms. Check it out now!</p>
+                    <button class="btn" data-news-id="new-album">Read More</button>
+                </div>
+            </div>
+            <div class="news-item card">
+                <div class="news-image">
+                    <img src="images/news2.jpg" alt="Upcoming Gig in Sonora">
+                </div>
+                <div class="news-content">
+                    <h3>Gig in Sonora</h3>
+                    <p>Relive a night with us on December 21st, 2024, at Black Bomb Entertainment for an unforgettable night of reggae music.</p>
+                    <button class="btn" data-news-id="sonora-gig">Read More</button>
+                </div>
+            </div>
+            <div class="news-item card">
+                <div class="news-image">
+                    <img src="images/news3.jpg" alt="Behind the Scenes">
+                </div>
+                <div class="news-content">
+                    <h3>Behind the Scenes</h3>
+                    <p>Take a sneak peek into our recording studio and see how we create our music.</p>
+                    <button class="btn" data-news-id="behind-the-scenes">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>How can I book the band?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>To book VIIB for your event, please use the contact form in the footer or email us directly at <strong>booking@viib.com</strong>. Include details like the event date, location, and type of event for a quicker response.</p>
+                </div>
+            </div>
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>Where can I listen to your music?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Our music is available on all major streaming platforms, including Spotify, Apple Music, YouTube Music, and Bandcamp. Check out the "Music" section on our website for direct links.</p>
+                </div>
+            </div>
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>Do you sell merchandise?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We have a variety of merchandise, including T-shirts, hoodies, and posters, available in the "Shop" section of our website. All items are shipped worldwide.</p>
+                </div>
+            </div>
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>What genre of music?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>VIIB specializes in reggae music, blending classic reggae vibes with the laid-back energy of California. Our sound is a fusion of roots reggae, acoustic melodies, and positive lyrics.</p>
+                </div>
+            </div>
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>Do you perform at private events?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we perform at private events such as weddings, corporate parties, and community gatherings. Contact us with your event details, and we’ll provide a customized quote.</p>
+                </div>
+            </div>
+            <div class="faq-item card">
+                <div class="faq-question">
+                    <h3>How can I stay updated?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Subscribe to our newsletter in the footer or follow us on social media (Facebook, Instagram, Twitter) for the latest updates on new music, tour dates, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="VIIB Logo">
+            </div>
+            <div class="footer-sections">
+                <div class="footer-left">
+                    <div class="footer-section contact-form">
+                        <h3>Contact Us</h3>
+                        <form action="#" method="post">
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Message" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-section quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#music">Music</a></li>
+                            <li><a href="#tour">Tour</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-section newsletter">
+                        <h3>Subscribe</h3>
+                        <form action="#" method="post">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="footer-section social-links">
+                        <h3>Follow Us</h3>
+                        <ul class="social-links">
+                            <li><a href="https://www.facebook.com/people/VIIB/61567084288069/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/viib_nation/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.threads.net/@viib_nation"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com/@viibreggae"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://open.spotify.com/album/5sEFizVh8EJt9DT0vSfCnY?si=13tnmEQQTSmWEUGSOCZ-Pw&nd=1&dlsi=a874d8c1aaaa4619"><i class="fab fa-spotify"></i></a></li>
+                            <li><a href="https://bandcamp.com"><i class="fab fa-bandcamp"></i></a></li>
+                            <li><a href="https://soundcloud.com"><i class="fab fa-soundcloud"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2023 VIIB. All rights reserved.</p>
+            <p>
+                <a href="terms.html">Terms and Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </div>
+        <button class="back-to-top">Back to Top</button>
+    </footer>
+
+    <!-- Order Form Modal -->
+    <div class="order-modal">
+        <div class="order-modal-content">
+            <span class="close-order-modal">&times;</span>
+            <h3>Order Form</h3>
+            <form id="order-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Shipping Address" required>
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="State" required>
+                <input type="text" placeholder="ZIP Code" required>
+                <select id="merch-item" required>
+                    <option value="" disabled selected>Select Merch Item</option>
+                    <option value="T-Shirt">T-Shirt</option>
+                    <option value="Hoodie">Hoodie</option>
+                    <option value="Poster">Poster</option>
+                </select>
+                <input type="number" placeholder="Quantity" min="1" required>
+                <button type="submit" class="btn">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal">
+        <div class="modal-content">
+            <!-- Content will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
